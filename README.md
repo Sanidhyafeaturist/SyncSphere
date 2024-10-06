@@ -25,11 +25,8 @@ The User Management System is a Python-based application that provides functiona
 
 ### Steps to Install
 1. Clone the repository:
-   - `git clone https://github.com/yourusername/user-management-system.git`
-   - `cd user-management-system`
-
-2. Install required packages:
-   - `pip install -r requirements.txt`
+   - `git clone https://github.com/Sanidhyafeaturist/SyncSphere.git`
+   - `cd SyncSphere`
 
 3. Set up the databases:
    - Run the SQL scripts located in the db directory:
