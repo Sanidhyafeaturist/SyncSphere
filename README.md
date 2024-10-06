@@ -5,7 +5,7 @@
 
 
 ## Overview
-The SyncSphere is a Python-based application that provides functionalities for user registration, updating, and deletion. It utilizes a MySQL database to store user data securely.
+The SyncSphere is a Python-based application that provides functionalities for user registration, updating, and deletion. It utilizes a MySQL database to store user data securely. This type of sql model is also used by GitLab.
 
 ## Features
 - User registration with email and password
