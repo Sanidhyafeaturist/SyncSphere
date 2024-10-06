@@ -9,3 +9,16 @@ CREATE TABLE IF NOT EXISTS users (
     password_hash VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+DELIMITER //
+
+CREATE TRIGGER after_user_insert
+AFTER INSERT ON db1.users
+FOR EACH ROW
+BEGIN
+    INSERT INTO db2.additional_data (username, email)
+    VALUES (NEW.username, NEW.email);
+END; //
+
+DELIMITER ;
