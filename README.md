@@ -66,6 +66,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Acknowledgements
 - MySQL for the database.
 - bcrypt for password hashing.
-
-## Contact
-For any questions or inquiries, please reach out to your_email@example.com.
