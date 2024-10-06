@@ -1,7 +1,7 @@
-# User Management System
+# SyncSphere
 
 ## Overview
-The User Management System is a Python-based application that provides functionalities for user registration, updating, and deletion. It utilizes a MySQL database to store user data securely.
+The SyncSphere is a Python-based application that provides functionalities for user registration, updating, and deletion. It utilizes a MySQL database to store user data securely.
 
 ## Features
 - User registration with email and password
